@@ -1,0 +1,26 @@
+.navbar_body {
+    background-color: var(--white);
+    height: 8rem;
+    border-bottom: 2px solid var(--gold);
+    --bs-navbar-nav-link-padding-x: 1rem;
+}
+
+.navbar_logo {
+    display: flex;
+    flex-direction: column;
+    --bs-navbar-brand-padding-y: 0;
+    padding: 1rem;
+}
+
+.navbar_logo h1 {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.navbar_logo h2 {
+    color: var(--black);
+    font-size: 42px;
+    font-weight: 300;
+    
+}
