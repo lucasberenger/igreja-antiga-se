@@ -1,16 +1,15 @@
 import React from 'react'
 
-import topoImg from './src/assets/topo.jpg';
-import topo2Img from './src/assets/topo_2.jpg';
-import topoSantissimoImg from './src/assets/topo-santissimo.jpg';
+import img1 from '../../assets/topo2.jpg'
+import img2 from '../../assets/santissimo.jpg'
+import img3 from '../../assets/topoAltar.jpg'
+
 
 const CarouselImages = () => {
   return (
-    <div>
-        <img src={topoImg} alt="img 1" />
-        <img src={topo2Img} alt="img 2" />
-        <img src={topoSantissimoImg} alt="img 3" />
-    </div>
+    <img src={img1} alt="img 1" />,
+    <img src={img2} alt="img 2" />,
+    <img src={img3} alt="img 3" />
   )
 }
 

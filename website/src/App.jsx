@@ -1,15 +1,16 @@
 import './App.css'
 
 import Header from './components/Header/Header'
-import CarouselSlide  from './components/Carousel/Carousel'
+import CarouselSlide from './components/Carousel/CarouselSlide'
+
+
 
 function App() {
   return (
-    <div>
-      <Header />,
-      <CarouselSlide  />
-    </div>
-    
+      <>
+        <Header />
+        <CarouselSlide />
+      </>    
   )
 }
 
