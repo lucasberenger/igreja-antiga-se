@@ -2,10 +2,10 @@ import './Carousel.modules.css'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-import image1 from '../../assets/missa.jpg'
-import image2 from '../../assets/santissimo.jpg'
-import image3 from '../../assets/topo2.jpg'
-import image4 from '../../assets/topoAltar.jpg' 
+import image1 from '../../assets/igrejaRua.png'
+import image2 from '../../assets/topoAltar.jpg'
+import image3 from '../../assets/teto.jpg'
+import image4 from '../../assets/santissimo.jpg' 
 
 const CarouselSlide = () => {
 
