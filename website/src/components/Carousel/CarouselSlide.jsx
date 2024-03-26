@@ -2,20 +2,27 @@ import './Carousel.modules.css'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 
+import image1 from '../../assets/missa.jpg'
+import image2 from '../../assets/santissimo.jpg'
+import image3 from '../../assets/topo2.jpg'
+import image4 from '../../assets/topoAltar.jpg' 
+
 const CarouselSlide = () => {
 
     const data = [
-     { id: '1', image: '../../assets/missa.jpg' },
-     { id: '2', image: '../../assets/santissimo.jpg'},
-     { id: '3', image: '../../assets/topo2.jpg' },
-     { id: '4', image: '../../assets/topoAltar.jpg'}
-]
+        { id: '1', image: image1},
+        { id: '2', image: image2 },
+        { id: '3', image: image3 },
+        { id: '4', image: image4 }
+    ]
 
     return (
         <>
             <Swiper 
             slidesPerView={1}
             pagination={{clickable: true}}
+            navigation
+            autoplay={{ delay: 3000 }}
             >
                 {data.map((item) => (
                     <SwiperSlide key={item.id}>
