@@ -3,15 +3,14 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
-    justify-content: center;
     padding: 4rem;
     background-color: var(--gold_2);
+    text-align: center;
 }
 
 .information_text {
-    padding-top: 2rem;
+    padding-top: 1.2rem;
     display: flex;
-    position: relative;
     font-size: 18px;
 }
 
