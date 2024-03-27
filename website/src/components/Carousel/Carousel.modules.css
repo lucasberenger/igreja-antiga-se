@@ -8,3 +8,11 @@
     height: 60vh;
     object-fit: cover;
 }
+
+.swiper-button-prev, .swiper-button-next {
+    color: var(--gold) !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--gold) !important;
+}
