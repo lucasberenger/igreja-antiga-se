@@ -9,10 +9,10 @@ const Information = () => {
             <h1>Horário de Missas</h1>
             <div className='information_text'>
                 <div>
-                    <p>Segunda a Sábado: 7h e 18h</p>
+                    <p>Segunda a Sexta: 8h</p>
                 </div>
                 <div>
-                    <p>Domingo: 11h e 19h</p>
+                    <p>Domingo: 11h</p>
                 </div>
             </div>
         </div>

@@ -5,6 +5,7 @@ import './index.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// swiper
 import {register} from 'swiper/element/bundle'
 
 register()

@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     padding: 4rem;
+    background-color: var(--gold_2);
 }
 
 .information_text {

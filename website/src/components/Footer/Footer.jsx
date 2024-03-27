@@ -1,7 +1,5 @@
 import React from 'react'
 import './Footer.modules.css'
-import fb from '../../assets/faceimg.png'
-import insta from '../../assets/instaimg.png'
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import Maps from '../Maps/Maps';
