@@ -1,0 +1,40 @@
+.marriage-container {
+    background-image: linear-gradient(var(--gold), var(--gold_2));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.marriage-image img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.marriage-image {
+    width: 50%;
+}
+
+.marriage-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--black);
+}
+
+.marriage-button {
+    color: var(--black);
+    border-color: var(--black);
+    background: none;
+    width: 240px;
+    height: 70px;
+    font-weight: 600;
+    transition: .2s ease;
+}
+
+.marriage-button:hover {
+    color: var(--black);
+    background-color: var(--white);
+    border-color: var(--black);
+}
