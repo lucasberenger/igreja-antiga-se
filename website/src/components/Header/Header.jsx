@@ -39,13 +39,13 @@ const Header = () => {
                 <NavDropdown title="Institucional" id="collapsible-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Igreja</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">
-                    Another action
+                  Devoções
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">Devoções</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.5">Capelas</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Capelas</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.5">Narcóticos Anônimos</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="#action/3.6">
-                    Narcóticos Anônimos
+                    Tour Virtual
                   </NavDropdown.Item>
                 </NavDropdown>
               </Nav>

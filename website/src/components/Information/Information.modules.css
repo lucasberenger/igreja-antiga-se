@@ -11,6 +11,7 @@
     padding-top: 2rem;
     display: flex;
     position: relative;
+    font-size: 18px;
 }
 
 .information_text > div:first-child {
