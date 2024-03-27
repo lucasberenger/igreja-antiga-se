@@ -30,3 +30,34 @@
     padding: 0;
     margin: 0;
 }
+
+.navbar-collapse {
+    z-index: 99;
+    background-color: var(--white);
+    padding: 2rem;
+}
+
+.dropdown-menu {
+    background-color: var(--white);
+    border-radius: 0;
+}
+
+.dropdown-item:hover {
+    color: var(--black);
+    background-color: var(--gold_2);
+}
+
+@media screen and (max-width: 900px) {
+
+    .navbar_logo img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo_text h1{
+       font-size: 12px;
+    }
+    .logo_text h2 {
+        font-size: 22px;
+    }
+}

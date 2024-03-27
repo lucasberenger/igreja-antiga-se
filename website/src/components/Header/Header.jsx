@@ -33,7 +33,6 @@ const Header = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link href="#features">Casamentos</Nav.Link>
-                <Nav.Link href="#pricing">Vida Pastoral</Nav.Link>
                 <Nav.Link href="#pricing">Galeria</Nav.Link>
                 <Nav.Link href="#pricing">Ações Sociais e Culturais</Nav.Link>
                 <NavDropdown title="Institucional" id="collapsible-nav-dropdown">
@@ -50,6 +49,9 @@ const Header = () => {
                 </NavDropdown>
               </Nav>
               <Nav>
+              <Nav.Link eventKey={1} href="#memes">
+                  Tour Virtual
+                </Nav.Link>
                 <Nav.Link eventKey={2} href="#memes">
                   Contato
                 </Nav.Link>
