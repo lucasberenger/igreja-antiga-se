@@ -21,13 +21,13 @@ const Footer = () => {
                         <p>Casamentos</p>
                     </a>
                     <a href="#">
-                        <p>Vida Pastoral</p>
-                    </a>
-                    <a href="#">
                         <p>Galeria</p>
                     </a>
                     <a href="#">
                         <p>Ações Sociais e Culturais</p>
+                    </a>
+                    <a href="#">
+                        <p>Tour Virtual</p>
                     </a>
                 </div>
                 <div className="sb_footer-links_div">
@@ -43,9 +43,6 @@ const Footer = () => {
                     </a>
                     <a href="#">
                         <p>Narcóticos Anônimos</p>
-                    </a>
-                    <a href="#">
-                        <p>Tour Virtual</p>
                     </a>
                 </div>
                 <div className="sb_footer-links_div">
