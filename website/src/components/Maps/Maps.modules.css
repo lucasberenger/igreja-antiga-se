@@ -2,3 +2,10 @@ iframe {
     width: 350px;
     height: 250px;
 }
+
+@media screen and (max-width: 900px) {
+    iframe {
+        width: 260px;
+        height: 200px;
+    }
+}

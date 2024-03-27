@@ -9,17 +9,20 @@
     width: 100%;
     height: 600px;
     object-fit: cover;
+    -webkit-mask-image: linear-gradient(to left, #000 50%, rgba(0,0,0,0));
+    mask-image: linear-gradient(to left, #000000 50%, rgba(0,0,0,0));
+    opacity: .9;
 }
 
 .marriage-image {
-    width: 50%;
+    width: 60%;
 }
 
 .marriage-text {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: end;
     color: var(--black);
 }
 
@@ -35,6 +38,38 @@
 
 .marriage-button:hover {
     color: var(--black);
-    background-color: var(--white);
+    background-color: rgba(255, 255, 255, 0.418);
     border-color: var(--black);
+}
+
+/* responsive */
+
+@media screen and (max-width: 900px) {
+
+    .marriage-container {
+        flex-direction: column-reverse;
+    }
+
+    .marriage-image img {
+        height: 200px;
+        -webkit-mask-image: linear-gradient(to bottom, #000 50%, rgba(0,0,0,0));
+        mask-image: linear-gradient(to bottom, #000000 50%, rgba(0,0,0,0));
+    }
+
+    .marriage-image {
+        width: 100%;
+        height: 40%;
+    }
+
+    .marriage-text {
+       align-items: center;
+       width: 100%;
+       padding: 2rem;
+    }
+
+    .marriage-button {
+        font-size: 16px;
+        height: 50px;
+        width: 160px;
+    }
 }
