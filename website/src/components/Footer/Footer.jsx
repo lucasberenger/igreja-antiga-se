@@ -62,7 +62,7 @@ const Footer = () => {
             <div className="sb_footer-below">
                 <div className="sb_footer-copyright">
                     <p>
-                        @{new Date().getFullYear()} CodeInn. All right reserved.
+                         Paróquia Nossa Senhora do Carmo da Antiga Sé – {new Date().getFullYear()} © Todos os direitos reservados
                     </p>
                 </div>
                 <div className="sb_footer-below-links">
