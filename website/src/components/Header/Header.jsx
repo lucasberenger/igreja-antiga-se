@@ -6,6 +6,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Donation from '../Donation/Donation';
+
 // logo
 import logo from '../../assets/logo.png'
 
@@ -50,10 +52,10 @@ const Header = () => {
               </Nav>
               <Nav>
               <Nav.Link eventKey={1} href="#memes">
-                  Tour Virtual
-                </Nav.Link>
-                <Nav.Link eventKey={2} href="#memes">
                   Contato
+                </Nav.Link>
+                <Nav.Link eventKey={2} className='nav-donation'>
+                <Donation />
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
