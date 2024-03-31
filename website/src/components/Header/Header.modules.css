@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     color: var(--black);
+    
 }
 
 .logo_text h1 {
@@ -26,9 +27,14 @@
 
 .logo_text h2 {
     font-size: 38px;
-    font-weight: 400;
+    font-weight: 700;
     padding: 0;
     margin: 0;
+    letter-spacing: -2px;
+}
+
+.span-logo {
+    color: var(--gold_2);
 }
 
 .navbar-collapse {

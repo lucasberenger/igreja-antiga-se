@@ -27,8 +27,8 @@ const Header = () => {
               className="d-inline-block align-center"
             />{''}
             <div className="logo_text">
-              <h1>Nossa Senhora do Carmo</h1>
-              <h2>Antiga Sé</h2>
+              <h1>Nossa Senhora do Carmo da</h1>
+              <h2><span className="span-logo">Antiga</span> Sé</h2>
             </div>
           </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
