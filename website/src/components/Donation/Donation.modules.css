@@ -15,32 +15,50 @@
     display: none;
     align-items: center;
     justify-content: center;
+    z-index: 98;
 }
 
 .close-btn {
     position: absolute;
     right: 0rem;
     top: 0;
+    z-index: 99;
 }
 
 .donation-show {
     border: 6px solid var(--gold_2);
     position: absolute;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 400px;
-    height: 400px;
+    height: 420px;
     background-color: var(--white);
 }
 
 .donation-show img {
     max-width: 240px;
     max-height: 240px;
+    margin-left: 2rem;
 }
 
 .code-qr {
     width: 300px;
     height: 300px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 900px ){
+    .donation-show {
+        width: 300px;
+        height: 280px;
+    }
+
+    .donation-show img {
+        max-width: 200px;
+        max-height: 200px;
+        margin-left: 3.2rem;
+        margin-top: 2.8rem;
+    }
 }
