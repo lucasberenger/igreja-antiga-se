@@ -56,7 +56,7 @@ const Marriage = () => {
 
         <div className="marriage-container_title">
           <h1>Agenda de Casamentos aberta! </h1>
-          <p>"Faça como a Princesa Isabel: escolha a Antiga Sé para o seu casamento real. Agende sua data agora mesmo!"</p>
+          <p>Celebre o seu casamento na Igreja Nossa Senhora do Carmo.</p>
         </div>
 
         <div className="marriage-container_button">
