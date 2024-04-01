@@ -1,13 +1,9 @@
 import React from 'react'
-import Header from '../components/Header/Header'
-import Footer from '../components/Footer/Footer'
 
 const Casamento = () => {
   return (
     <>
-        <Header />
-        <Footer />
-
+        <h1>Casamento</h1>
     </>
   )
 }

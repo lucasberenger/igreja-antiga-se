@@ -3,6 +3,9 @@ import './Marriage.modules.css'
 
 import Button from 'react-bootstrap/Button';
 
+// router
+import { Link } from 'react-router-dom'
+
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { useState, useEffect } from 'react'
 
@@ -14,6 +17,7 @@ import casamentoFoto4 from '../../assets/casamentoFoto4.jpg'
 import casamentoFoto5 from '../../assets/casamentoFoto5.jpg'
 import casamentoFlores from '../../assets/casamentoFlores.jpg'
 // -----------
+
 
 
 const Marriage = () => {
@@ -60,7 +64,7 @@ const Marriage = () => {
         </div>
 
         <div className="marriage-container_button">
-        <Button variant="outline-primary" className='marriage_button'>Agende o seu!</Button>
+        <Button variant="outline-primary" className='marriage_button' as={Link} to='/casamentos'>Agende o seu!</Button>
         </div>
 
       </div>

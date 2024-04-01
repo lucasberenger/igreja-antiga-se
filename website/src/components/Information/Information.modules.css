@@ -3,36 +3,38 @@
     flex-direction: column;
     gap: 2rem;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--white);
     align-items: center;
     justify-content: center;
-    border-bottom: 2px solid var(--gold_2);
-    padding: 4rem;
+    padding: 6rem 0;
     text-align: center;
 }
 
 .information_container h2 {
     padding-bottom: 2rem;
-    color: var(--gold_2);
+    color: var(--black);
+    font-style: italic;
 }
 
 .cards_container {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    justify-content: space-around;
+    gap: 4rem;
 }
 
 .cards {
     padding: 2rem;
-    background-color: var(--gold);
+    border: 6px solid var(--gold_2);
+    border-bottom: 6px solid var(--gold);
+    border-left: 6px solid var(--gold);
     height: auto;
     width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 30px;
-    box-shadow: 1px 2px 10px 3px rgba(0, 0, 0, 0.11);
+    box-shadow: 1px 2px 12px 2px rgba(0, 0, 0, 0.178);
 }
 
 .cards h4 {
@@ -47,10 +49,11 @@
 .cards svg {
     height: 4rem;
     width: 4rem;
-    background-color: var(--black);
-    color: var(--gold);
+    background-color: var(--gold_2);
+    color: var(--black);
     padding: .8rem;
     border-radius: 50%;
+    box-shadow: 1px 2px 12px 2px rgba(0, 0, 0, 0.082);
 }
 
 .mass_container {
@@ -81,15 +84,15 @@
     }
 
     .cards {
-        padding: 2rem;
-        background-color: var(--gold);
-        height: auto;
         width: 300px;
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border-radius: 30px;
-        box-shadow: 1px 2px 10px 3px rgba(0, 0, 0, 0.11);
+    }
+
+    .cards h4 {
+        font-size: 16px;
+    }
+
+    .cards p {
+        font-size: 14px;
     }
 }

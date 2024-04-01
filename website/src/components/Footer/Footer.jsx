@@ -4,6 +4,8 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import Maps from '../Maps/Maps';
 
+import { Link } from 'react-router-dom'
+
 const Footer = () => {
   return (
     <div className='footer'>
@@ -15,8 +17,10 @@ const Footer = () => {
                 </div>
                 <div className="sb_footer-links_div">
                     <h4>Igreja</h4>
-                    <a href="#">
-                        <p>Casamentos</p>
+                    <a>
+                        <Link to='/casamentos'>
+                            <p>Casamentos</p>
+                        </Link>
                     </a>
                     <a href="#">
                         <p>Galeria</p>

@@ -14,9 +14,44 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 
+// router dom
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+import Contact from './pages/Contact.jsx';
+import Casamento from './pages/Casamento.jsx'
+import ErrorPage from './pages/ErrorPage.jsx';
+import Home from './pages/Home.jsx';
+
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    errorElement: <ErrorPage/>,
+    children: [
+        {
+          path: 'home',
+          element: <Home />
+        },
+        {
+          path: 'contato',
+          element: <Contact />
+        },
+        {
+          path: 'casamentos',
+          element: <Casamento />
+        },
+    ]
+  },
+])
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>,
 )
