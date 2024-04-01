@@ -15,7 +15,7 @@
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 98;
+    z-index: 99;
 }
 
 .close-btn {
@@ -45,6 +45,10 @@
 .code-qr {
     width: 300px;
     height: 300px;
+}
+
+.swiper {
+    box-shadow: none !important;
 }
 
 /* responsive */

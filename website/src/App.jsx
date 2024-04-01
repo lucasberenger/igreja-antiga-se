@@ -7,6 +7,15 @@ import Marriage from './components/Marriage/Marriage'
 import Footer from './components/Footer/Footer'
 import DonationPage from './components/Donation/DonationPage'
 
+// router-dom
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
+
 
 function App() {
   return (
