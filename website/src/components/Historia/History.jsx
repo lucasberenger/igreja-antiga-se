@@ -2,6 +2,7 @@ import React from 'react'
 import './History.modules.css'
 
 import Button from 'react-bootstrap/Button';
+import { IoSearch } from "react-icons/io5";
 
 import  { Link } from 'react-router-dom'
 
@@ -16,7 +17,7 @@ const History = () => {
 
                 <p>A Antiga Sé foi o palco de alguns dos mais importantes momentos dessa história, como a coroação de Dom Pedro I e Dom Pedro II, além de cenário dos casamentos reais.</p>
 
-                <Button variant="outline-primary" className='history_btn' as={Link} to='/casamentos'>Conheça Nossa História</Button>
+                <Button variant="outline-primary" className='history_btn' as={Link} to='/casamentos'><IoSearch/> Conheça Nossa História</Button>
 
             </div>
             <div className="history_image">

@@ -1,9 +1,11 @@
 import React from 'react'
 
+import CasamentoCarousel from '../components/CasamentoCarousel/CasamentoCarousel'
+
 const Casamento = () => {
   return (
     <>
-        <h1>Casamento</h1>
+       <CasamentoCarousel/> 
     </>
   )
 }
