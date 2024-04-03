@@ -1,8 +1,15 @@
 import React from 'react'
+import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
+import Error from '../components/ErrorPage/Error'
 
 const ErrorPage = () => {
   return (
-    <div>Erro 404!</div>
+    <>
+      <Header />
+      <Error />
+      <Footer />
+    </>
   )
 }
 
