@@ -25,6 +25,7 @@ import Contact from './pages/Contact.jsx';
 import Casamento from './pages/Casamento.jsx'
 import ErrorPage from './pages/ErrorPage.jsx';
 import Home from './pages/Home.jsx';
+import Igreja from './pages/Igreja.jsx';
 
 
 const router = createBrowserRouter([
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
         {
           path: 'casamentos',
           element: <Casamento />
+        },
+        {
+          path: 'igreja',
+          element: <Igreja />
         },
     ]
   },

@@ -41,7 +41,7 @@ const Header = () => {
               <Nav.Link href="#pricing">Galeria</Nav.Link>
               <Nav.Link href="#pricing">Ações Sociais e Culturais</Nav.Link>
               <NavDropdown title="Institucional" id="collapsible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Igreja</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='/igreja'>Igreja</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                 Devoções
                 </NavDropdown.Item>
