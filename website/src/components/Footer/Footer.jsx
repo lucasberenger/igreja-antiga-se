@@ -2,7 +2,6 @@ import React from 'react'
 import './Footer.modules.css'
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
-import Maps from '../Maps/Maps';
 
 import { Link } from 'react-router-dom'
 
@@ -12,8 +11,10 @@ const Footer = () => {
         <div className="sb_footer section_padding">
             <div className="sb_footer-links">
                 <div className="sb_footer-links-div">
-                    <h4>Como chegar?</h4>
-                    <Maps />
+                    <h4>Antiga Sé</h4>
+                    <p> (21) 98985-5508 <br />
+                    Rua Sete de Setembro, 14 - Centro | Rio de Janeiro - RJ</p>
+                    
                 </div>
                 <div className="sb_footer-links_div">
                     <h4>Igreja</h4>
