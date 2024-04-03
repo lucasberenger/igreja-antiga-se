@@ -3,7 +3,6 @@
     flex-direction: row;
     justify-content: center;
     background-color: var(--black);
-    background-repeat: no-repeat;
     background-size: cover;
     padding: 4rem;
     gap: 2rem;
@@ -40,4 +39,34 @@
     height: 435px;
     width: 500px;
     border-radius: 12px;
+}
+
+@media screen and (max-width: 900px) {
+    .form-container {
+        flex-direction: column;
+        padding: 4rem 1rem;
+        gap: 2rem;
+    }
+
+    .form {
+        padding: 1rem;
+        gap: 1rem;
+        width: auto;
+        height: auto;
+    }
+    
+    .form-map {
+        font-size: 14px;
+    }
+
+    .form-map p {
+        padding: .4rem 0;
+    }
+
+    .form-map iframe{
+        height: auto;
+        width: 310px;
+        border-radius: 12px;
+    }
+    
 }
