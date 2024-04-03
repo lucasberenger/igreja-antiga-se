@@ -43,3 +43,42 @@
     width: 50%;
     color: var(--white);
 }
+
+@media screen and (max-width: 900px) {
+
+    .crhonology-title {
+        padding-bottom: 0rem;
+    }
+    
+    .crhonology-title h1 {
+        color: var(--gold_2);
+        padding-top: 2rem;
+        font-size: 24px;
+        font-style: italic;
+    }
+    
+    .crhonology-title h4 {
+        color: var(--white);
+        font-size: 16px;
+    }
+    
+    .history-slider {
+        padding: 2rem 0rem 2rem 2rem;
+    }
+
+    .history-slider img {
+        padding: .6rem;
+        width: 160px;
+        height: 160px;
+    }
+
+    .history-slider h4 {
+        font-size: 18px;
+        padding-top: 1rem;
+    }
+
+    .history-slider p {
+        width: 80%;
+        font-size: 14px;
+    }
+}
