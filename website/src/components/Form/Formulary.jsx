@@ -13,6 +13,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 const Formulary = () => {
 
     const [name, setName] = useState('')
+    const [phone, setPhone] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
 
@@ -35,6 +36,12 @@ const Formulary = () => {
                 placeholder='Digite seu nome'
                 onChange={(e) => setName(e.target.value)}
                 value={name}
+                />
+                <input type="text"
+                className='input'
+                placeholder='Digite seu Celular'
+                onChange={(e) => setPhone(e.target.value)}
+                value={phone}
                 />
                 <input type="text"
                 className='input'

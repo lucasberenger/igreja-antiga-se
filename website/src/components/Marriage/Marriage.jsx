@@ -3,6 +3,8 @@ import './Marriage.modules.css'
 
 import Button from 'react-bootstrap/Button';
 
+import { MdEditCalendar } from "react-icons/md";
+
 // router
 import { Link } from 'react-router-dom'
 
@@ -64,7 +66,7 @@ const Marriage = () => {
         </div>
 
         <div className="marriage-container_button">
-        <Button variant="outline-primary" className='marriage_button' as={Link} to='/casamentos'>Agende o seu!</Button>
+        <Button variant="outline-primary" className='marriage_button' as={Link} to='/casamentos'><MdEditCalendar/> Agende o seu!</Button>
         </div>
 
       </div>

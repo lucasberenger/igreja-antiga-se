@@ -19,7 +19,9 @@
 
 .marriage-title_text h1 {
     color: var(--white);
-    font-style: italic;
+    font-family: "Cinzel", serif;
+    color: var(--gold_2);
+    font-size: 52px;
 }
 
 .marriage-title_text p {
