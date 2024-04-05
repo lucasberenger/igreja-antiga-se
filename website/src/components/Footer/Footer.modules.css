@@ -57,6 +57,13 @@ a{
     color: var(--gold);
 }
 
+.sb_footer-links_div h5 {
+    font-size: 14px;
+    font-weight: 300;
+    opacity: .8;
+    color: var(--white);
+}
+
 .sb_footer-links_div h3 {
     font-size: 38px;
     line-height: 1rem;
@@ -70,6 +77,10 @@ a{
     margin: .5rem 0;
     cursor: pointer;
     color: var(--white);
+}
+
+.sb_footer-links_div p:hover {
+    color: var(--gold);
 }
 
 .sb_footer-below {

@@ -12,8 +12,8 @@ const Footer = () => {
             <div className="sb_footer-links">
                 <div className="sb_footer-links_div">
                     <h3>Antiga Sé</h3>
-                    <p> (21) 98985-5508 <br />
-                    Rua Sete de Setembro, 14 - Centro | Rio de Janeiro - RJ</p>
+                    <h5> (21) 98985-5508 <br />
+                    Rua Sete de Setembro, 14 - Centro | Rio de Janeiro - RJ</h5>
                 </div>
                 <div className="sb_footer-links_div">
                 <ScrollRestoration />
