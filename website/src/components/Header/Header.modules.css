@@ -8,15 +8,18 @@
 .navbar_logo {
     display: flex;
     gap: 6rem;
-    width: 200px;
+    width: 50px !important;
+    height: 100px !important;
     align-items: end;
     justify-content: end;
     margin-left: 6rem;
+    margin-top: 1.2rem;
 }
 
 .navbar_logo img{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: auto;
+    margin-bottom: 1.6rem;
 }
 
 .logo_text h2 {
@@ -31,13 +34,13 @@
     background-image: linear-gradient(var(--gold_2), var(--gold));
     background-size: 100% 3px;
     background-repeat: no-repeat;
-    background-position: 0% 90%;
+    background-position: 0% 87%;
     transition: background-size .2s, background-position .2s ease-in-out;
 }
 
 .logo_text h2:hover {
     background-size: 100% 100%;
-    background-position: 0% 90%;
+    background-position: 0% 87%;
     transition: background-position .2s, background-size .2s ease-in-out;
 }
 
@@ -67,16 +70,20 @@
 
     .navbar_logo {
         margin: 0;
-        width: auto;
-        gap: 3rem;
+        width: 220px !important;
+        gap: 3.3rem;
+        align-items: flex-start;
     }
     
     .navbar_logo img{
         width: 60px;
-        height: 60px;
+        height: auto;
     }
 
     .logo_text h2 {
-        font-size: 22px;
+        margin-top: 3rem;
+        font-size: 24px;
+        background-size: 100% 2px;
+        
     }
 }
