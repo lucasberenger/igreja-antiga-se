@@ -14,7 +14,7 @@ const SocialMedia = () => {
       <div className="instagram-container">
 
         <div className="instagram-container_text">
-          <h2>Acompanhe a Igreja <br />
+          <h2>Siga a Igreja <br />
             <a href="https://www.facebook.com/igrejaantigase" target='blank'><FaFacebookSquare/></a> 
             <a href="https://www.instagram.com/igrejaantigase/" target='blank'><FaInstagram/></a></h2>
         </div>
