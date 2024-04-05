@@ -58,26 +58,12 @@ const AcaoSocial = () => {
 
   return (
     <>        
-    <Swiper 
-      slidesPerView={slidePerView}
-      pagination= {{ clickable: true }}
-      autoplay={{ delay: 4000 }}
-      className='acoes-slider'
-      >
-        {data.map((item) => (
-          <SwiperSlide key={item.id}>
-            <img src={item.image} 
-            alt="Slider" 
-            className='acoes-slide_item'
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-
       <div className="acao-container">
 
             <div className="acao-title">
                 <h1>Ações Sociais</h1>
+                <h4>"Quem trata bem os pobres empresta ao Senhor, e ele o recompensará." — Provérbios 19:17</h4>
+                <img src={img6} alt="Ações Sociais" />
             </div>
 
 
@@ -104,6 +90,22 @@ const AcaoSocial = () => {
             className='acao-btn' 
             as={Link} 
             to='/contato'><FaHandHoldingHeart/> Seja Voluntário</Button>
+
+<Swiper 
+      slidesPerView={slidePerView}
+      pagination= {{ clickable: true }}
+      autoplay={{ delay: 4000 }}
+      className='acoes-slider'
+      >
+        {data.map((item) => (
+          <SwiperSlide key={item.id}>
+            <img src={item.image} 
+            alt="Slider" 
+            className='acoes-slide_item'
+            />
+          </SwiperSlide>
+        ))}
+      </Swiper>
         </div>
       
     </>
