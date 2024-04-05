@@ -13,15 +13,15 @@
 
 .history_year h2 {
     font-size: 92px;
-    font-family: "Dancing Script", cursive;
     color: var(--gold_2);
+    font-family: "Dancing Script", cursive;
 }
 
 .history_year h3 {
     font-size: 52px;
     color: var(--white);
-    font-family: "Dancing Script", cursive;
     padding: 1rem 0;
+    font-family: "Great Vibes", cursive;
 }
 
 .history_text {

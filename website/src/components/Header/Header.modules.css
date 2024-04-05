@@ -7,33 +7,38 @@
 
 .navbar_logo {
     display: flex;
-    align-items: center;
-    margin-right: 4rem;
+    gap: 6rem;
+    width: 200px;
+    align-items: end;
+    justify-content: end;
+    margin-left: 6rem;
 }
 
-.logo_text {
-    display: flex;
-    flex-direction: column;
-    color: var(--black);
-}
-
-.logo_text h1 {
-    font-size: 16px;
-    font-weight: 400;
-    padding: 0;
-    margin: 0;
+.navbar_logo img{
+    width: 100px;
+    height: 100px;
 }
 
 .logo_text h2 {
-    font-size: 38px;
-    font-weight: 700;
+    font-size: 28px;
     padding: 0;
     margin: 0;
-    letter-spacing: -2px;
+    font-family: "Cinzel", serif;
+    color: var(--black);
+    font-size: 38px; 
+    font-weight: 400;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(var(--gold_2), var(--gold));
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position: 0% 90%;
+    transition: background-size .2s, background-position .2s ease-in-out;
 }
 
-.span-logo {
-    color: var(--gold_2);
+.logo_text h2:hover {
+    background-size: 100% 100%;
+    background-position: 0% 90%;
+    transition: background-position .2s, background-size .2s ease-in-out;
 }
 
 .navbar-collapse {
@@ -53,15 +58,24 @@
 }
 
 @media screen and (max-width: 900px) {
+
+    .container {
+        justify-content: center !important;
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    .navbar_logo {
+        margin: 0;
+        width: auto;
+        gap: 3rem;
+    }
     
     .navbar_logo img{
         width: 60px;
         height: 60px;
     }
 
-    .logo_text h1{
-       font-size: 12px;
-    }
     .logo_text h2 {
         font-size: 22px;
     }
