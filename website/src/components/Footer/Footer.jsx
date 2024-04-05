@@ -10,11 +10,10 @@ const Footer = () => {
     <div className='footer'>
         <div className="sb_footer section_padding">
             <div className="sb_footer-links">
-                <div className="sb_footer-links-div">
-                    <h4>Antiga Sé</h4>
+                <div className="sb_footer-links_div">
+                    <h3>Antiga Sé</h3>
                     <p> (21) 98985-5508 <br />
                     Rua Sete de Setembro, 14 - Centro | Rio de Janeiro - RJ</p>
-                    
                 </div>
                 <div className="sb_footer-links_div">
                 <ScrollRestoration />

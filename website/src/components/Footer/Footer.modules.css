@@ -57,11 +57,19 @@ a{
     color: var(--gold);
 }
 
+.sb_footer-links_div h3 {
+    font-size: 38px;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+    color: var(--gold_2);
+    font-family: "Cinzel", serif;
+}
+
 .sb_footer-links_div p {
     font-size: 16px;
-    line-height: 15px;
     margin: .5rem 0;
     cursor: pointer;
+    color: var(--white);
 }
 
 .sb_footer-below {
