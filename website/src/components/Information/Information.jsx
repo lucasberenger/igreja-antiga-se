@@ -15,7 +15,6 @@ const Information = () => {
 
             <h2>Igreja Nossa Senhora do <br/>Carmo da Antiga Sé</h2>
             
-            
             <div className="cards_container">
                 <div className="cards">
                     <MdChurch />
