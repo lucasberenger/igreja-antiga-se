@@ -16,6 +16,8 @@
 }
 
 .history-title h1 {
+    font-family: "Cinzel", serif;
+    font-size: 82px;
     z-index: 1;
     font-style: italic;
     color: var(--gold_2);

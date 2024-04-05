@@ -13,7 +13,7 @@ const Information = () => {
 
         <div className="information_container">
 
-            <h2>Igreja Nossa Senhora do Carmo <br /> Antiga Sé</h2>
+            <h2>Igreja Nossa Senhora do <br/>Carmo da Antiga Sé</h2>
             
             
             <div className="cards_container">
