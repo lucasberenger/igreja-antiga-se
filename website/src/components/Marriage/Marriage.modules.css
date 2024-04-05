@@ -2,7 +2,7 @@
     background-color: var(--white);
     display: flex;
     flex-direction: column;
-    padding: 5rem;
+    padding: 2rem 4rem 6rem 4rem;
 }
 
 .marriage-container_text {

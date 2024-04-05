@@ -5,9 +5,12 @@ import { MdChurch } from "react-icons/md";
 import { PiHandsPrayingFill } from "react-icons/pi";
 import { GiDiamondRing } from "react-icons/gi";
 
+import HorizontalLine from '../HorizontalLine/HorizontalLine';
+
 const Information = () => {
   return (
     <>
+
         <div className="information_container">
 
             <h2>Igreja Nossa Senhora do Carmo <br /> Antiga Sé</h2>
@@ -32,7 +35,7 @@ const Information = () => {
                 </div>
             </div>
         </div>
-        
+        <HorizontalLine />
     </>
    
   )
