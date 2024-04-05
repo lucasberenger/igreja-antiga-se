@@ -39,7 +39,7 @@ const Header = () => {
             <Nav className="me-auto">
               <Nav.Link as={Link} to="/casamentos">Casamentos</Nav.Link>
               <Nav.Link href="#pricing">Galeria</Nav.Link>
-              <Nav.Link href="#pricing">Ações Sociais e Culturais</Nav.Link>
+              <Nav.Link as={Link} to='/acao-social'>Ações Sociais e Culturais</Nav.Link>
               <NavDropdown title="Institucional" id="collapsible-nav-dropdown">
                 <NavDropdown.Item as={Link} to='/igreja'>Igreja</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
@@ -48,7 +48,7 @@ const Header = () => {
                 <NavDropdown.Item href="#action/3.3">Capelas</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.5">Narcóticos Anônimos</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.6">
+                <NavDropdown.Item href="https://matterport.com/discover/space/fmSVBM1HoW6" target='blank'>
                   Tour Virtual
                 </NavDropdown.Item>
               </NavDropdown>

@@ -26,6 +26,7 @@ import Casamento from './pages/Casamento.jsx'
 import ErrorPage from './pages/ErrorPage.jsx';
 import Home from './pages/Home.jsx';
 import Igreja from './pages/Igreja.jsx';
+import AcoesSociais from './pages/AcoesSociais.jsx';
 
 
 const router = createBrowserRouter([
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
         {
           path: 'igreja',
           element: <Igreja />
+        },
+        {
+          path: 'acao-social',
+          element: <AcoesSociais />
         },
     ]
   },

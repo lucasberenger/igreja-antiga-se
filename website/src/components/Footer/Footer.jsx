@@ -3,7 +3,7 @@ import './Footer.modules.css'
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 
-import { Link } from 'react-router-dom'
+import { Link, ScrollRestoration  } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -17,6 +17,7 @@ const Footer = () => {
                     
                 </div>
                 <div className="sb_footer-links_div">
+                <ScrollRestoration />
                     <h4>Igreja</h4>
                     <a>
                         <Link to='/casamentos'>
@@ -26,18 +27,18 @@ const Footer = () => {
                     <a href="#">
                         <p>Galeria</p>
                     </a>
-                    <a href="#">
-                        <p>Ações Sociais e Culturais</p>
-                    </a>
-                    <a href="#">
+                    <Link to='/acao-social'>
+                            <p>Ações Sociais e Culturais</p>
+                        </Link>
+                    <a href="https://matterport.com/discover/space/fmSVBM1HoW6" target='blank'>
                         <p>Tour Virtual</p>
                     </a>
                 </div>
                 <div className="sb_footer-links_div">
                     <h4>Institucional</h4>
-                    <a href="#">
-                        <p>Igreja</p>
-                    </a>
+                    <Link to='/Igreja'>
+                            <p>A Igreja</p>
+                        </Link>
                     <a href="#">
                         <p>Devoções</p>
                     </a>
