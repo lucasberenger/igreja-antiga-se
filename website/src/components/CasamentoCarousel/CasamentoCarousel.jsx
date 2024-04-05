@@ -5,12 +5,12 @@ import './CasamentoCarousel.modules.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { useState, useEffect } from 'react'
 
-import { FaClock } from "react-icons/fa6";
-import { FaCheckCircle } from "react-icons/fa";
-import { FaCalendarCheck } from "react-icons/fa6";
-import { IoPeopleCircleSharp } from "react-icons/io5";
-import { MdLibraryMusic } from "react-icons/md";
-import { IoFlower } from "react-icons/io5";
+import { TbClockHour8 } from "react-icons/tb";
+import { IoCheckmarkCircleOutline } from "react-icons/io5";
+import { IoPeopleCircleOutline } from "react-icons/io5";
+import { MdOutlineLibraryMusic } from "react-icons/md";
+import { LuFlower } from "react-icons/lu";
+import { LuCalendarDays } from "react-icons/lu";
 
 
 // pictures
@@ -86,27 +86,35 @@ const CasamentoCarousel = () => {
 
             <div className="marriage-information_text">
                 <div className="information_box">
-                    <FaClock />
+                    <div className="box-icon">
+                      <TbClockHour8 />
+                    </div>
                     <p>Funcionamento da secretaria: de segunda a sexta, das 08h às 17h, aos sábados de 09h30 às 12h.</p>
                 </div>
                 <div className="information_box">
-                    <FaCalendarCheck />
+                    <div className="box-icon">
+                      <LuCalendarDays />
+                    </div>
                     <p>Dias e horários para casamentos: sextas e sábados, podendo ocorrer nos horários de 10h00, 18h00 ou 20h00, mas é possível agendar exclusividade e bloquear os dois horários.</p>
                 </div>
                 <div className="information_box">
-                    <FaCheckCircle/>
+                    <div className="box-icon"><IoCheckmarkCircleOutline/></div>
                     <p>Confirmação da reserva é feita mediante o pagamento de 50% do valor acertado na secretaria.</p>
                 </div>            
                 <div className="information_box">
-                    <IoPeopleCircleSharp />
+                    <div className="box-icon">
+                      <IoPeopleCircleOutline />
+                    </div>
                     <p>Capacidade: 250 pessoas sentadas.</p>
                 </div>
                 <div className="information_box">
-                    <IoFlower />
+                    <div className="box-icon">
+                      <LuFlower />
+                    </div>
                     <p>O valor inclui: celebrante, tapete, toldo, chuva de pétalas, iluminação especial da igreja, iluminação do chão, sino e abertura da tela com Nossa Senhora do Carmo no ato em que o noivo recebe a noiva no altar.</p>
                 </div>
                 <div className="information_box">
-                    <MdLibraryMusic/>
+                    <div className="box-icon"><MdOutlineLibraryMusic/></div>
                     <p>Só são permitidas músicas sacras e eruditas segundo o decreto da Arquidiocese do Rio de Janeiro.</p>
                 </div>
             </div>
