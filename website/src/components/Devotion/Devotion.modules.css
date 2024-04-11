@@ -1,0 +1,75 @@
+.devotion-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.devotion-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    background-color: var(--black);
+}
+
+.devotion-title h1 {
+    font-family: "Cinzel", serif;
+    font-size: 82px;
+    z-index: 1;
+    font-style: italic;
+    color: var(--gold_2);
+}
+
+.devotion-title h4 {
+    font-size: 18px;
+    color: var(--white);
+    z-index: 1;
+    width: 30%;
+    text-align: center;
+}
+
+.devotion-title img {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: 0% 33%;
+    z-index: 0;
+    opacity: .7;
+    filter: blur(2px);
+}
+
+.devotion-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 6rem;
+    background-color: var(--white);
+}
+
+.devotion-content_text {
+    width: 50%;
+    padding: 2rem 0;
+}
+
+.devotion-content_text p {
+    width: 80%;
+}
+
+.devotion-content_image {
+    width: 30%;
+}
+
+.devotion-content_image p {
+    width: auto;
+    font-size: 14px;
+}
+
+.devotion-content img {
+    width: auto;
+    height: 320px;
+}

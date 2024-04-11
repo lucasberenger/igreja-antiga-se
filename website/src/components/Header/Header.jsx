@@ -35,11 +35,11 @@ const Header = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link as={Link} to="/casamentos">Casamentos</Nav.Link>
-              <Nav.Link href="#pricing">Galeria</Nav.Link>
+              <Nav.Link as={Link} to='/galeria'>Galeria</Nav.Link>
               <Nav.Link as={Link} to='/acao-social'>Ações Sociais e Culturais</Nav.Link>
               <NavDropdown title="Institucional" id="collapsible-nav-dropdown">
                 <NavDropdown.Item as={Link} to='/igreja'>Igreja</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item as={Link} to='/devocoes'>
                 Devoções
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">Capelas</NavDropdown.Item>

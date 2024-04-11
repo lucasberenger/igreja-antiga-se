@@ -7,6 +7,8 @@ import image2 from '../../assets/topoAltar.jpg'
 import image3 from '../../assets/teto.jpg'
 import image4 from '../../assets/santissimo.jpg' 
 import PainelNossaSenhora from '../../assets/PainelNossaSenhora.jpg'
+import topoIgreja from '../../assets/topoIgreja.png'
+import santosIgreja from '../../assets/santosIgreja.png'
 
 const CarouselSlide = () => {
 
@@ -15,7 +17,8 @@ const CarouselSlide = () => {
         { id: '2', image: image1},
         { id: '3', image: image2 },
         { id: '4', image: image3 },
-        { id: '5', image: image4 },
+        { id: '5', image: topoIgreja },
+        
     ]
 
     return (

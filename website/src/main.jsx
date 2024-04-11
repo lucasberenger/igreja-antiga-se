@@ -23,10 +23,12 @@ import {
 
 import Contact from './pages/Contact.jsx';
 import Casamento from './pages/Casamento.jsx'
+import Galeria from './pages/Galeria.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
 import Home from './pages/Home.jsx';
 import Igreja from './pages/Igreja.jsx';
 import AcoesSociais from './pages/AcoesSociais.jsx';
+import Devocoes from './pages/Devocoes.jsx';
 
 
 const router = createBrowserRouter([
@@ -48,12 +50,20 @@ const router = createBrowserRouter([
           element: <Casamento />
         },
         {
+          path: 'galeria',
+          element: <Galeria />
+        },
+        {
           path: 'igreja',
           element: <Igreja />
         },
         {
           path: 'acao-social',
           element: <AcoesSociais />
+        },
+        {
+          path: 'devocoes',
+          element: <Devocoes />
         },
     ]
   },
