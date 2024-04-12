@@ -7,10 +7,13 @@ import nossaSenhora from '../../assets/PainelNossaSenhora.jpg'
 import topoIgreja from '../../assets/topo2.jpg'
 import tetoIgreja from '../../assets/topoIgreja.png'
 import escapulario from '../../assets/escapulario.png'
+import nossaSenhoraDaCabeca from '../../assets/nossaSenhoraDaCabeca.png'
+import nossaSenhoraDaCabeca2 from '../../assets/nossaSenhoraDaCabeca2.png'
 
 import { TbCross } from "react-icons/tb";
 import { PiHandsPraying } from "react-icons/pi";
 import { IoSkullOutline } from "react-icons/io5";
+import { GiMusicalScore } from "react-icons/gi";
 
 const Devotion = () => {
   return (
@@ -109,6 +112,67 @@ const Devotion = () => {
             </div>
 
             <HorizontalLine/>
+
+            {/* NOSSA SENHORA DA CABEÇA */}
+
+            <div className="devotion-content_center-image ourLadyCenterImage">
+                <img src={nossaSenhoraDaCabeca} alt="Nossa Senhora da Cabeça" />
+                <br />
+                <h1>Devoção a Nossa Senhora da Cabeça</h1>
+            </div>
+            <div className="devotion-content">
+                <div className='devotion-content_text'>
+                    <h5>Arquiconfraria de Nossa Senhora da Cabeça</h5> <br />
+                    <p>No dia 26 de abril de 1916, às 9 horas da manhã, por ocasião da Missa de Nossa Senhora da Cabeça, o Revmo. Conego Virgilio Morato de Andrade, Cura da Catedral Metropolitana <span className="span-text">leu a provisão do Eminentíssimo Senhor Cardeal Arcebispo do Rio de Janeiro,</span> em que estabelece a mencionada Confraria de Nossa Senhora da Cabeça Proclamada por Dom Joaquim Arcoverde.</p>
+                    <h5>História de Nossa Senhora da Cabeça</h5> <br />
+                    <p>A <span className="span-text">devoção a Nossa Senhora da Cabeça teve início no sec. XII,</span> quando um soldado que havia perdido um braço durante uma cruzada defendendo a integridade de Jerusalém pastoreava perto do pico da Cabeça na Serra Morena localizada na Espanha. Ouvindo sons de uma sineta resolveu purgar sua curiosidade e, numa gruta próxima, ouviu uma doce voz vinda do céu, <span className="span-text">a voz da Virgem Maria que lhe pediu que descesse ao vilarejo de Andujar e pregasse a conversão</span> de toda a população a fé em seu Filho.</p>
+                    <p>Descendo ao vilarejo toda a população foi testemunha do milagre e <span className="span-text">passou a professar a fé em Nosso Senhor Jesus Cristo</span> construindo uma grande e bela igreja no local onde o antigo soldado e pastor recebeu o recado da virgem e o milagre devido a sua intercessão.</p>
+                </div>
+                <div className='devotion-content_image'>
+                    <img src={nossaSenhoraDaCabeca2} alt="Topo Igreja Nossa Senhora do Carmo da Antiga Sé" />
+                    <p>Nossa Senhora da Cabeça</p>
+                </div>
+            </div>
+
+            <div className="devotion-content">
+                <div className="devotion-content_text">
+                    <h5>Oração a Nossa Senhora da Cabeça</h5>
+                    <br />
+                    <p>Ei-nos aqui prostrados aos vossos pés, ó mãe do céu e Senhora nossa. Vimos louvar-vos e agradecer-vos tantos <span className="span-text">benefícios espirituais e temporais que de Deus tendes alcançado.</span> Quantos louvores vos podemos dar, ó mãe bondosa . Ah! Tende compaixão de nós .</p>
+                    <p>Nossa alma sofre por tantas vezes ter ofendido vosso Divino Filho e sente não possuir as virtudes que mais podemos imitar em <span className="span-text">vossa Santidade ó Mãe de Deus cheia de graças.</span> <br />
+                    Daí-nos, Senhora, as graças necessárias para sermos verdadeiros cristãos, fiéis a doutrina da igreja e constantes imitadores do vosso “SIM” a Deus. <span className="span-text">Iluminai a nossa mente para que compreenda cada vez mais que a única felicidade é servir a Deus</span> e trilhar com os santos o caminho do céu.</p>
+                    <p>Fortificai a nossa vontade para que não caiamos em tentação. Tocai o nosso coração a fim de que desteste o pecado e ame a vida cristã que desejais dos vossos devotos. Tende piedade de toda nossa pobreza espiritual!<span className="span-text"> Ó Mãe terníssima, não vos esqueçais também de tudo que aflige o nosso corpo em nossa vida terrena.</span></p>
+                    <p>Dai-nos saúde e coragem para que possamos ser responsáveis nos deveres e vencer todas as dificuldades que nos opõe o espírito mundano. <span className="span-text">Não permitais que a nossa pobre cabeça seja atormentada por males que nos perturbem a paz que vem de Cristo.</span> Pelos merecimentos de vosso Divino Filho, Nosso Senhor Jesus Cristo e pelo amor que a Ele consagrais alcançai-nos a graça que agora vos pedimos. (Oração pessoal) </p>
+                    <p>Aí tendes, ó Mãe poderosa a nossa súplica humilde. Atendei-nos, em vossa bondade, <span className="span-text">Rainha do Céu</span> e da terra.</p>
+                    <p>Por toda a parte cantaremos louvores <span className="span-text">à Vossa Bondade e ao vosso poder, ó Senhora da cabeça,</span> até chegar o dia em que, levados por vós entremos na felicidade eterna dos céus. <br /> <span className="span-text">Assim seja.</span> </p>
+                </div>
+                <div className="devotion-cards_container card-musicOurLady">
+
+                        <div className="devotion-card ourLadyMusic-card">
+                        <GiMusicalScore />
+                            <h5>Música a Nossa Senhora da Cabeça</h5>
+                            <br />
+                            <p>
+                                Ó Senhora da Cabeça Virgem-mãe do Redentor
+                                A nós todos Favoreça Teu sorriso protetor
+                                Esmagastes da serpente A cabeça objeta, vil
+                                E o senhor Onipotente, Concedeu-te graças mil.
+                                De Jesus a fronte amada
+                                repousou nos braços teus.
+                                Ó mulher predestinada.
+                                fostes a mãe do próprio Deus.
+                                Bondosíssima Senhora
+                                Mãe Clemente dos Cristãos
+                                Nossa fronte pecadora
+                                Ela, ampara em tuas mãos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+
+            
+            
     </>
   )
 }
