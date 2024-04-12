@@ -30,7 +30,7 @@ const Devotion = () => {
                 </div>
 
                 <div className='devotion-content_image'>
-                    <img src={topoIgreja} alt="Coroação Dom Pedro I" />
+                    <img src={topoIgreja} alt="Topo Igreja Nossa Senhora do Carmo da Antiga Sé" />
                     <p>Nossa Senhora do Carmo</p>
                 </div>
             </div>
