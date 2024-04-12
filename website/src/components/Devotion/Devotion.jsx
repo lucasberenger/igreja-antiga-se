@@ -8,6 +8,10 @@ import topoIgreja from '../../assets/topo2.jpg'
 import tetoIgreja from '../../assets/topoIgreja.png'
 import escapulario from '../../assets/escapulario.png'
 
+import { TbCross } from "react-icons/tb";
+import { PiHandsPraying } from "react-icons/pi";
+import { IoSkullOutline } from "react-icons/io5";
+
 const Devotion = () => {
   return (
     <>
@@ -60,11 +64,26 @@ const Devotion = () => {
             </div>
             <HorizontalLine />
 
-            <div className="devotion-content">
-                <div className='devotion-content_text'>
-                <br />
+            <div className="devotion-cards_container">
                 <h4>Escapulário de Nossa Senhora do Carmo</h4>
-                <br />
+                    <div className="devotion-cards_box">
+                        <div className="devotion-card">
+                        <TbCross />
+                            <p>Usar o escapulário do Carmo, imposto e abençoado devidamente pelo sacerdote</p>
+                        </div>
+                        <div className="devotion-card">
+                        <PiHandsPraying />
+                            <p>Usá-lo piedosamente, ou seja, esforçando-se por cumprir os deveres cristãos</p>
+                        </div>
+                        <div className="devotion-card">
+                            <IoSkullOutline />
+                            <p>Levá-lo posto na hora da morte.</p>
+                        </div>
+                    </div>
+                </div>
+
+            <div className="devotion-content">
+                <div className='devotion-content_text'>            
                 <p>Uma das devoções marianas mais difundidas é o escapulário do Carmo. Assim como a água benta, o terço, as medalhas e as estampas bentas, <span className="span-text">o escapulário do Carmo é um sacramental.</span></p>
                 <p>A palavra sacramental assemelha-se muito à palavra sacramento, e com razão, pois sacramental significa <span className="span-text">“algo semelhante a um sacramento”,</span> embora haja uma grande diferença entre um e outro. Um sacramento é um sinal externo instituído por Jesus Cristo para comunicar a graças às nossas almas, Um sacramental é também um sinal externo, mas os sacramentais foram instituídos pela Igreja e não trazem a graça por si mesmos, antes nos preparam para a graças, despertando em nós sentimentos de fé e de amor; e, além disso, tem o grande valor de uma intercessão da Igreja, diante de Deus, para que Ele nos conceda a sua graça. Qualquer <span className="span-text">graça que possamos obter pelo uso dos sacramentais depende do poder da oração da Igreja e das nossas disposições,</span> conforme podemos observar no Catecismo da Igreja Católica §1670.</p>
                 <p>Portanto, o escapulário não dispensa os Sacramentos, que são os meios instituídos por Nosso Senhor como via normal para nos santificar, nem dispensa da prática das virtudes. Não leva automaticamente para o Céu as almas em pecado mortal, mas <span className="span-text">ajuda a buscar a conversão da alma, a receber bem os Sacramentos e a perseverar no bem.</span> Ajuda aquele que tiver um mínimo de boa vontade e se arrependa, a sair do estado de pecado mortal e alcançar a graça da perseverança final.</p>
@@ -86,10 +105,6 @@ const Devotion = () => {
                     <p>Nos nossos dias, <span className="span-text">há um total de dezoito tipos de escapulários difundidos entre os católicos,</span> cada um originado numa ordem religiosa diferente. Mas o mais usado é o escapulário marrom da ordem Carmelita, cuja especial padroeira é a Virgem do Carmo. <span className="span-text">A popularidade do escapulário marrom é devida, em parte, às graças específicas que estão associadas pela própria Virgem Maria</span> nas suas aparições a São Simão Stock e ao Papa João XII: a garantia de todo aquele que o usar devotamente não morrerá em pecado mortal, e o privilégio sabatino.</p>
                     <p>No entanto, é preciso entender corretamente o conteúdo dessa promessa feita pela Virgem: a perseverança final — isto é, a salvação — para quem morrer usando o escapulário. A graça que Nossa Senhora concede aos que <span className="span-text">usam o escapulário e morrem com ele é a de se arrependerem de todos os pecados</span> cometidos em vida, já que é uma verdade de fé que só se pode salvar quem estiver em estado de graça na hora da morte.</p>
                     <br />
-                    <p>Em suma, para alcançar o privilégio da perseverança é preciso:</p>
-                    <p>1. Usar o escapulário do Carmo, imposto e abençoado devidamente pelo sacerdote;
-                    <br />2. Usá-lo piedosamente, ou seja, esforçando-se por cumprir os deveres cristãos;
-                    <br />3. Levá-lo posto na hora da morte.</p>
                 </div>
             </div>
 
