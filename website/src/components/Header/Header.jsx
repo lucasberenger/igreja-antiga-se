@@ -35,6 +35,7 @@ const Header = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link as={Link} to="/casamentos">Casamentos</Nav.Link>
+              <Nav.Link as={Link} to="/vida-pastoral">Vida Pastoral</Nav.Link>
               <Nav.Link as={Link} to='/galeria'>Galeria</Nav.Link>
               <Nav.Link as={Link} to='/acao-social'>Ações Sociais e Culturais</Nav.Link>
               <NavDropdown title="Institucional" id="collapsible-nav-dropdown">

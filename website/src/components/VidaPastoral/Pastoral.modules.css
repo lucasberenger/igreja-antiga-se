@@ -1,0 +1,116 @@
+.pastoral-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    background-color: var(--black);
+}
+
+.pastoral-title h1 {
+    z-index: 1;
+    font-style: italic;
+    color: var(--gold_2);
+    font-family: "Cinzel", serif;
+    font-size: 82px;
+}
+
+.pastoral-title h4 {
+    font-size: 18px;
+    color: var(--white);
+    z-index: 1;
+    width: 30%;
+    text-align: center;
+}
+
+.pastoral-title img {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: 10% 60%;
+    z-index: 0;
+    opacity: .7;
+    filter: blur(2px) brightness(60%);
+}
+
+.pastoral-content {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.pastoral-content h2 {
+    padding: 2rem;
+}
+
+.pastoral-container_box {
+    display: flex;
+    gap: 2rem;
+    padding: 4rem 0 6rem 0;
+    background-color: var(--white);
+    align-items: center;
+    justify-content: center;
+}
+
+.pastoral-card {
+    text-align: center;
+    padding: 2rem;
+    gap: 1rem;
+    border: 6px solid var(--gold_2);
+    border-bottom: 6px solid var(--gold);
+    border-left: 6px solid var(--gold);
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 2px 12px 2px rgba(0, 0, 0, 0.178);
+}
+
+.visitacao-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+
+    .pastoral-title h1 {
+        font-size: 32px;
+    }
+    
+    .pastoral-title h4 {
+        font-size: 14px;
+        width: 80%;
+    }
+    
+    .pastoral-content h2 {
+        font-size: 20px;
+        padding: 1rem 0;
+    }
+
+    .pastoral-content h4 {
+        font-size: 16px;
+    }
+    
+    .pastoral-container_box {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 4rem 0 6rem 0;
+    }
+    
+    .pastoral-card {
+        height: auto;
+        width: 300px;
+    }
+}

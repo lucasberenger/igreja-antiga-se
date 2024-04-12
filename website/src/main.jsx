@@ -29,6 +29,7 @@ import Home from './pages/Home.jsx';
 import Igreja from './pages/Igreja.jsx';
 import AcoesSociais from './pages/AcoesSociais.jsx';
 import Devocoes from './pages/Devocoes.jsx';
+import VidaPastoral from './pages/VidaPastoral.jsx';
 
 
 const router = createBrowserRouter([
@@ -64,6 +65,10 @@ const router = createBrowserRouter([
         {
           path: 'devocoes',
           element: <Devocoes />
+        },
+        {
+          path: 'vida-pastoral',
+          element: <VidaPastoral />
         },
     ]
   },
