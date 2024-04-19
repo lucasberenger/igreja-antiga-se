@@ -35,9 +35,10 @@ const Pastoral = () => {
                 <div className="box-icon">
                     <IoWaterOutline/>
                 </div>
-                <p>Você pode agendar o sacramento do batismo na Igreja Nossa Senhora do Carmo da Antiga Sé. 
-                Batizado: 2° sábado do mês às 9h
-                OBS: Outras datas, a consulta é feita na secretaria.
+                    <h4>Batismo</h4>
+                    <p>Você pode agendar o sacramento do batismo na Igreja Nossa Senhora do Carmo da Antiga Sé. 
+                    Batizado: 2° sábado do mês às 9h
+                    OBS: Outras datas, a consulta é feita na secretaria.
                 </p>
             </div>
         
@@ -45,6 +46,7 @@ const Pastoral = () => {
                 <div className="box-icon">
                     <GoBook/>
                 </div>
+                    <h4>Catecumenato</h4>
                     <p>As inscrições estão abertas para o catecumenato de Jovens e Adultos que não receberam o sacramento do batismo, primeira comunhão e confirmação (O Crisma).</p>
             </div>
         
@@ -52,6 +54,7 @@ const Pastoral = () => {
                 <div className="box-icon">
                     <BiConversation/>
                 </div>
+                <h4>Confissão</h4>
                 <p>Os atendimentos de confissões acontecem de segunda-feira a sexta-feira após a Missa das 8h. Para confissões em outros dias e horários, basta dirigir-se à secretaria ou à sacristia.</p>
             </div>        
     </div>
