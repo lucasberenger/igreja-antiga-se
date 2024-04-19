@@ -5,15 +5,19 @@ import { MdChurch } from "react-icons/md";
 import { PiHandsPrayingFill } from "react-icons/pi";
 import { GiDiamondRing } from "react-icons/gi";
 
+import ScrollAnimation from '../ScrollAnimation/ScrollAnimation'
+import '../../components/ScrollAnimation/ScrollAnimation.modules.css'
+
 import HorizontalLine from '../HorizontalLine/HorizontalLine';
 
 const Information = () => {
   return (
     <>
+    <ScrollAnimation/>
 
         <div className="information_container">
 
-            <h2>Igreja Nossa Senhora do <br/>Carmo da Antiga Sé</h2>
+            <h2 className='hidden'>Igreja Nossa Senhora do <br/>Carmo da Antiga Sé</h2>
             
             <div className="cards_container">
                 <div className="cards">

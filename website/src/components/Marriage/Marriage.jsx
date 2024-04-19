@@ -3,6 +3,9 @@ import './Marriage.modules.css'
 
 import Button from 'react-bootstrap/Button';
 
+import ScrollAnimation from '../ScrollAnimation/ScrollAnimation'
+import '../../components/ScrollAnimation/ScrollAnimation.modules.css'
+
 import { MdEditCalendar } from "react-icons/md";
 
 // router
@@ -58,14 +61,16 @@ const Marriage = () => {
   return (
     <div className='marriage-container'>
 
-      <div className="marriage-container_text">
+<ScrollAnimation/>
 
-        <div className="marriage-container_title">
+      <div className="marriage-container_text hidden">
+
+        <div className="marriage-container_title hidden">
           <h1>Agenda de Casamentos aberta! </h1>
           <p>Celebre o seu casamento na Igreja Nossa Senhora do Carmo.</p>
         </div>
 
-        <div className="marriage-container_button">
+        <div className="marriage-container_button hidden">
         <Button variant="outline-primary" className='marriage_button' as={Link} to='/casamentos'><MdEditCalendar/> Agende o seu!</Button>
         </div>
 

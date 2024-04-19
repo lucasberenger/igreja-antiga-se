@@ -1,6 +1,9 @@
 import React from 'react'
 import './SocialMedia.modules.css'
 
+import ScrollAnimation from '../ScrollAnimation/ScrollAnimation'
+import '../../components/ScrollAnimation/ScrollAnimation.modules.css'
+
 import { InstagramEmbed } from 'react-social-media-embed';
 import { FacebookEmbed } from 'react-social-media-embed';
 
@@ -11,9 +14,10 @@ const SocialMedia = () => {
 
   return (
     <>
+    <ScrollAnimation />
       <div className="instagram-container">
 
-        <div className="instagram-container_text">
+        <div className="instagram-container_text hidden">
           <h2>Siga a Igreja <br />
             <a href="https://www.facebook.com/igrejaantigase" target='blank'><FaFacebookSquare/></a> 
             <a href="https://www.instagram.com/igrejaantigase/" target='blank'><FaInstagram/></a></h2>

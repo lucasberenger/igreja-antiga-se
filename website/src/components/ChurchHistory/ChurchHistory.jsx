@@ -4,9 +4,13 @@ import './ChurchHistory.modules.css'
 import domPedro2 from '../../assets/coroacaoDomPedro2.jpg'
 import domPedro1 from '../../assets/coroacaoDomPedro.jpg'
 
+import ScrollAnimation from '../ScrollAnimation/ScrollAnimation'
+import '../../components/ScrollAnimation/ScrollAnimation.modules.css'
+
 const ChurchHistory = () => {
   return (
     <>
+    <ScrollAnimation/>
         <div className="history-container">
             <div className="history-title">
                 <h1>A Igreja</h1>
@@ -16,7 +20,7 @@ const ChurchHistory = () => {
 
             <div className="history-content">
 
-                <div className="history-content_text">
+                <div className="history-content_text hidden">
                     <p>A Antiga Sé foi o palco de alguns dos mais importantes momentos dessa história, como a coroação de Dom Pedro I e Dom Pedro II, além de cenário dos casamentos reais.
                     <span className="spant-text">A Igreja nasceu como uma pequena ermida dedicada à Nossa Senhora do Ó</span>, construída poucos anos da ocupação portuguesa. As escavações realizadas durante a reforma feita em 2008 revelaram vestígios de mangue, o que indica que provavelmente ela foi construída muito próxima da areia e voltada para o mar. Ou melhor, como mandava a tradição na época, voltada para Portugal.</p>
 
@@ -24,7 +28,7 @@ const ChurchHistory = () => {
                     Em 1619, os frades iniciaram a construção de um convento, ao lado da capela e uniram os dois edifícios por de uma torre com portaria, posteriormente demolida para esticar a Rua Sete de Setembro <span className="span-text">(a torre agora existente é do século XX, realizada pelo Cardeal Arcoverde).</span></p>
                 </div>
 
-                <div className='history-content_image'>
+                <div className='history-content_image hidden'>
                     <img src={domPedro1} alt="Coroação Dom Pedro I" />
                     <p>A Coroação de D. Pedro I por Jean-Baptiste Debret.</p>
                 </div>
@@ -38,7 +42,7 @@ const ChurchHistory = () => {
                 </div>
 
                 <div className="history-container">
-                    <div className='history-content_text'>
+                    <div className='history-content_text hidden'>
                     <p>Em 1619, os frades iniciaram a construção de um convento, ao lado da capela e uniram os dois edifícios por de uma torre com portaria, posteriormente demolida para esticar a Rua Sete de Setembro (a torre agora existente é do século XX, realizada pelo Cardeal Arcoverde).</p>
                     <p>O convento, de dois andares e 13 janelas cada, voltado para a Praça XV de Novembro seria ocupado mais tarde, pela Rainha D. Maria. <span className="span-text">Anos depois, a capela, que estava em estado precário desabou</span> e por volta de 1761, foi construído um novo templo. O templo atual, da lavra de Mestre Manuel Alves Setúbal, com o nártex já voltado para o mar (a antiga capela, porém, era voltada para o convento).</p>
                     <p>O Mestre Inácio Ferreira Pinto realizou a <span className="span-text">belíssima talha dourada em estilo rococó.</span> Quanto ao exterior, apenas o primeiro andar da fachada, com os três portais em estilo pombalino lisboeta, é ainda original. <span className="span-text">Foi essa igreja que, em 1808, D. João VI transformou em Capela Real</span>, quando chegou ao Brasil. A família real foi instalada no então Palácio dos Vice-Reis, que hoje é o Paço Imperial, e que fica na Praça XV. </p>

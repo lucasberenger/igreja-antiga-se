@@ -4,6 +4,9 @@ import './History.modules.css'
 import Button from 'react-bootstrap/Button';
 import { IoSearch } from "react-icons/io5";
 
+import ScrollAnimation from '../ScrollAnimation/ScrollAnimation'
+import '../../components/ScrollAnimation/ScrollAnimation.modules.css'
+
 import  { Link } from 'react-router-dom'
 
 import coroacaoDomPedro from '../../assets/coroacaoDomPedro.jpg'
@@ -18,10 +21,11 @@ const History = () => {
 
   return (    
     <>
+    <ScrollAnimation/>
         <div className="history_container">
-            <div className="history_text">
+            <div className="history_text hidden">
 
-                <div className="history_year">
+                <div className="history_year hidden">
                   <h2>{result}</h2>
                   <h3>Anos de História</h3>
                 </div>

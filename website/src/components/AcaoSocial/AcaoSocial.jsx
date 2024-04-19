@@ -3,6 +3,9 @@ import  { Link } from 'react-router-dom'
 
 import './AcaoSocial.modules.css'
 
+import ScrollAnimation from '../ScrollAnimation/ScrollAnimation'
+import '../../components/ScrollAnimation/ScrollAnimation.modules.css'
+
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { useState, useEffect } from 'react'
 
@@ -58,6 +61,7 @@ const AcaoSocial = () => {
 
   return (
     <>        
+    <ScrollAnimation/>
       <div className="acao-container">
 
             <div className="acao-title">
@@ -69,17 +73,17 @@ const AcaoSocial = () => {
 
             <div className="acao-container_box">
 
-                <div className="acao-container_item">
+                <div className="acao-container_item hidden">
                 <IoPeopleCircle/>
                 <p>O super café da manhã é uma iniciativa de fiéis voluntários da Igreja Nossa Senhora da Antiga Sé.</p>
                 </div>
 
-                <div className="acao-container_item">
+                <div className="acao-container_item hidden">
                 <GiCoffeeCup/>
                 <p>Todo primeiro Domingo do mês os voluntários distribuem um super café da manhã para as pessoas em situação de rua do Centro do Rio de Janeiro, às 8h30.</p>
                 </div>
 
-                <div className="acao-container_item">
+                <div className="acao-container_item hidden">
                 <LuHeartHandshake/>
                 <p>Você também pode ser voluntário, colaborando financeiramente via PIX: antigase@gmail.com ou com mantimentos ou ajudando na distribuição dos alimentos.</p>
                 </div>

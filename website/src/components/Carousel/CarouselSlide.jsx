@@ -28,6 +28,7 @@ const CarouselSlide = () => {
             pagination={{clickable: true}}
             navigation
             autoplay={{ delay: 4000 }}
+            
             >
                 {data.map((item) => (
                     <SwiperSlide key={item.id}>

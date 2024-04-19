@@ -2,6 +2,9 @@ import React from 'react'
 
 import './CasamentoCarousel.modules.css'
 
+import ScrollAnimation from '../ScrollAnimation/ScrollAnimation'
+import '../../components/ScrollAnimation/ScrollAnimation.modules.css'
+
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { useState, useEffect } from 'react'
 
@@ -68,7 +71,7 @@ const CasamentoCarousel = () => {
   return ( 
 
     <>
-
+  <ScrollAnimation/>
       <div className="marriage_container">
 
         <div className="marriage-title_container">
@@ -84,7 +87,7 @@ const CasamentoCarousel = () => {
 
         <div className="marriage-information_container">
 
-            <div className="marriage-information_text">
+            <div className="marriage-information_text hidden">
                 <div className="information_box">
                     <div className="box-icon">
                       <TbClockHour8 />
@@ -138,7 +141,7 @@ const CasamentoCarousel = () => {
       </Swiper>
 
         <div className="about-marriage_container">
-            <div className="about-marriage_text">
+            <div className="about-marriage_text hidden">
                 <h2>Matrimônio Sacramento do Casal Cristão</h2>
                 <p>“A aliança matrimonial, pela qual o homem e a mulher constituem entre si uma comunidade de vida toda, <span className="text-span">é ordenada por sua índole natural à prole,</span> e foi elevada, entre os batizados, à dignidade de Sacramento, por Cristo Senhor”</p>
                 <h2>O Matrimônio Cristão</h2>

@@ -1,6 +1,9 @@
 import React from 'react'
 import './Pastoral.modules.css'
 
+import ScrollAnimation from '../ScrollAnimation/ScrollAnimation'
+import '../../components/ScrollAnimation/ScrollAnimation.modules.css'
+
 import Contact from '../../pages/Contact'
 
 import missa from '../../assets/missa.jpg'
@@ -15,23 +18,24 @@ import { BiConversation } from "react-icons/bi";
 const Pastoral = () => {
   return (
     <>
+      <ScrollAnimation />
         <div className="pastoral-title">
             <h1>Vida Pastoral</h1>
             <h4>Missa —  Confissão —  Batismo —  Catecumenato —  Visitação</h4>
             <img src={missa} alt="Missa" />     
         </div>
-
+    
         <div className="pastoral-content">
-            <h2>Horário de Missas</h2>
-            <h4>Domingo: 11h</h4>
-            <h4>Segunda a Sexta: 8h</h4>
+            <h2 className='hidden'>Horário de Missas</h2>
+            <h4 className='hidden'>Domingo: 11h</h4>
+            <h4 className='hidden'>Segunda a Sexta: 8h</h4>
         </div>
 
         <HorizontalLine />
 
         <div className="pastoral-container_box">
         
-            <div className='pastoral-card'>
+            <div className='pastoral-card hidden'>
                 <div className="box-icon">
                     <IoWaterOutline/>
                 </div>
@@ -42,7 +46,7 @@ const Pastoral = () => {
                 </p>
             </div>
         
-            <div className='pastoral-card'>
+            <div className='pastoral-card hidden'>
                 <div className="box-icon">
                     <GoBook/>
                 </div>
@@ -50,7 +54,7 @@ const Pastoral = () => {
                     <p>As inscrições estão abertas para o catecumenato de Jovens e Adultos que não receberam o sacramento do batismo, primeira comunhão e confirmação (O Crisma).</p>
             </div>
         
-            <div className='pastoral-card'>
+            <div className='pastoral-card hidden'>
                 <div className="box-icon">
                     <BiConversation/>
                 </div>
@@ -61,12 +65,13 @@ const Pastoral = () => {
 
 
     <div className="pastoral-title">
-            <h1>Visitação</h1>
-            <h4>Você pode fazer a visitação e conhecer melhor a Igreja Nossa Senhora do Carmo da Antiga Sé.</h4>
+            <h1 className='hidden'>Visitação</h1>
+            <h4 className='hidden'>Você pode fazer a visitação e conhecer melhor a Igreja Nossa Senhora do Carmo da Antiga Sé.</h4>
             <br />
-            <h4>Todos os sábados do mês às 9h30 às 12h30</h4>
+            <h4 className='hidden'>Todos os sábados do mês às 9h30 às 12h30</h4>
             <img src={fotoIgreja} alt="Missa" />     
     </div>
+    
 
     <Contact/>
 
