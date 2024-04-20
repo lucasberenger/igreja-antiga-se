@@ -1,7 +1,8 @@
 import React from 'react'
 import './CapelasPage.modules.css'
 
-import HorizontalLine from '../../components/HorizontalLine/HorizontalLine'
+import ScrollAnimation from '../ScrollAnimation/ScrollAnimation'
+import '../ScrollAnimation/ScrollAnimation.modules.css'
 
 import { FaArrowRightLong } from "react-icons/fa6";
 
@@ -14,12 +15,13 @@ import capelaParto from '../../assets/capelaParto.png'
 const CapelasPage = () => {
   return (
     <>
+    <ScrollAnimation/>
         <div className="capelas-title">
             <h1>Capelas</h1>
         </div>
 
         <div className="capelas-container">
-            <div className="capela-item">
+            <div className="capela-item hidden">
                 <img src={capelaSaoJose} alt="capela São José" />
                 <div className="capela-item_text">
                     <h4>Capela São José</h4>
@@ -28,7 +30,7 @@ const CapelasPage = () => {
                 </div>
             </div>
 
-            <div className="capela-item">
+            <div className="capela-item hidden">
                 <img src={capelaSantaLuzia} alt="capela Santa Luzia" />
                 <div className="capela-item_text">
                     <h4>Capela Santa Luzia</h4>
@@ -38,7 +40,7 @@ const CapelasPage = () => {
                 </div>
             </div>
 
-            <div className="capela-item">
+            <div className="capela-item hidden">
                 <img src={capelaBonsucesso} alt="capela Nossa Senhora do Bonsucesso" />
                 <div className="capela-item_text">
                     <h4>Capela Nossa Senhora do Bonsucesso</h4>
@@ -47,7 +49,7 @@ const CapelasPage = () => {
                 </div>
             </div>
 
-            <div className="capela-item">
+            <div className="capela-item hidden">
                 <img src={capelaParto} alt="capela Nossa Senhora do Parto" />
                 <div className="capela-item_text">
                     <h4>Capela Nossa Senhora do Parto</h4>
