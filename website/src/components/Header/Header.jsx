@@ -43,7 +43,7 @@ const Header = () => {
                 <NavDropdown.Item as={Link} to='/devocoes'>
                 Devoções
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Capelas</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/capelas">Capelas</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.5">Narcóticos Anônimos</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="https://matterport.com/discover/space/fmSVBM1HoW6" target='blank'>

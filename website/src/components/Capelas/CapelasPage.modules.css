@@ -1,0 +1,92 @@
+.capelas-title {
+    background-color: var(--white);
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.capelas-title h1 {
+    font-family: "Cinzel", serif;
+    font-size: 62px;
+}
+
+.capelas-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem 10rem;
+    gap: 2rem;
+    background-color: var(--white);
+    justify-content: center;
+}
+
+.capela-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .4rem;
+    box-shadow: 1px 2px 12px 2px rgba(0, 0, 0, 0.178);
+    background-color: var(--gold_2);
+    height: auto;
+}
+
+.capela-item img {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.capela-item_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    width: 500px;
+    background-color: var(--gold_2);
+    color: var(--black);
+}
+
+.capela-item a {
+    background-color: var(--black);
+    padding: .4rem;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.capela-item a:hover {
+    background-color: rgb(41, 41, 41);
+}
+
+.capela-item_text h4 {
+    padding-bottom: 1rem;
+    font-style: italic;
+}
+
+@media screen and (max-width:900px) {
+    .capelas-title {
+        padding: 4rem 0 2rem 0;
+    }
+    
+    .capelas-title h1 {
+        font-size: 42px;
+    }
+    
+    .capelas-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2rem;
+    }
+    
+    .capela-item img {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .capela-item_text {
+        width: auto;
+        gap: 1rem;
+    }
+}

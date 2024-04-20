@@ -41,9 +41,9 @@ const Footer = () => {
                     <a href="#">
                         <p>Devoções</p>
                     </a>
-                    <a href="#">
+                    <Link to="/capelas">
                         <p>Capelas</p>
-                    </a>
+                    </Link>
                     <a href="#">
                         <p>Narcóticos Anônimos</p>
                     </a>
