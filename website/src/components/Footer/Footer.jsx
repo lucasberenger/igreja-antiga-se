@@ -38,15 +38,15 @@ const Footer = () => {
                     <Link to='/Igreja'>
                             <p>A Igreja</p>
                         </Link>
-                    <a href="#">
+                    <Link to="/devocoes">
                         <p>Devoções</p>
-                    </a>
+                    </Link>
                     <Link to="/capelas">
                         <p>Capelas</p>
                     </Link>
-                    <a href="#">
+                    <Link to="/narcoticos">
                         <p>Narcóticos Anônimos</p>
-                    </a>
+                    </Link>
                 </div>
                 <div className="sb_footer-links_div">
                     <h4>Redes Sociais</h4>

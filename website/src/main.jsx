@@ -31,6 +31,7 @@ import AcoesSociais from './pages/AcoesSociais.jsx';
 import Devocoes from './pages/Devocoes.jsx';
 import VidaPastoral from './pages/VidaPastoral.jsx';
 import Capelas from './pages/Capelas.jsx';
+import Narcoticos from './pages/Narcoticos.jsx';
 
 
 const router = createBrowserRouter([
@@ -74,6 +75,10 @@ const router = createBrowserRouter([
         {
           path: 'capelas',
           element: <Capelas />
+        },
+        {
+          path: 'narcoticos',
+          element: <Narcoticos />
         },
     ]
   },

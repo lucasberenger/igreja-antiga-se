@@ -44,7 +44,7 @@ const Header = () => {
                 Devoções
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/capelas">Capelas</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.5">Narcóticos Anônimos</NavDropdown.Item>
+                <NavDropdown.Item as={Link}  to="/narcoticos">Narcóticos Anônimos</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="https://matterport.com/discover/space/fmSVBM1HoW6" target='blank'>
                   Tour Virtual
